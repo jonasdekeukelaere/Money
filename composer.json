@@ -1,0 +1,22 @@
+{
+  "name": "jonasdekeukelaere/money",
+  "type": "library",
+  "description": "Money class",
+  "homepage": "https://github.com/jonasdekeukelaere/money",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jonas De Keukelaere",
+      "email": "dev-money@teracon.be",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "JonasDeKeukelaere\\Money\\": "src"
+    }
+  }
+}
