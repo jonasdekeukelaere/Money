@@ -17,4 +17,11 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals('EUR', $currency->getCode());
     }
+
+    public function testCanBeCastedAsString()
+    {
+        $currency = new Currency('EUR');
+
+        $this->assertEquals('EUR', (string) $currency);
+    }
 }
